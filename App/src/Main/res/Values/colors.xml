@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Boundless Theme Colors from README -->
+    <color name="deep_teal">#004d40</color>       <!-- Primary: Grounding, trustworthy -->
+    <color name="deep_teal_dark">#00251a</color>
+    <color name="warm_orange">#ff7043</color>     <!-- Secondary: Energetic, sunset-inspired -->
+    <color name="off_white">#fafafa</color>       <!-- Background: Clean, readable -->
+    <color name="coral">#ff5252</color>           <!-- Accent/Warning: Playful pops of color -->
+    <color name="gold">#ffd54f</color>            <!-- Accent: Playful pops of color -->
+
+    <color name="dark_surface">#121212</color>
+    <color name="dark_background">#1A1A1A</color>
+</resources>

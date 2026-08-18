@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Boundless" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/deep_teal</item>
+        <item name="colorPrimaryDark">@color/deep_teal_dark</item>
+        <item name="colorAccent">@color/warm_orange</item>
+        <item name="colorSecondary">@color/warm_orange</item>
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
+
+        <!-- Shape Appearance -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Boundless.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Boundless.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Boundless.Large</item>
+    </style>
+
+    <style name="ShapeAppearance.Boundless.Small" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Boundless.Medium" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Boundless.Large" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">32dp</item>
+    </style>
+
+    <style name="RoundedBottomImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeBottomLeft">32dp</item>
+        <item name="cornerSizeBottomRight">32dp</item>
+    </style>
+
+    <style name="Theme.Boundless" parent="Base.Theme.Boundless" />
+</resources>
